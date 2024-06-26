@@ -6,8 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export",
+    "deploy": "gh-pages -d out"
   },
+  "homepage": "https://Divyansh200102.github.io/Twitter_Clone",
   "dependencies": {
     "@next-auth/mongodb-adapter": "^1.0.4",
     "autoprefixer": "^10.4.8",
@@ -30,6 +33,7 @@
   },
   "devDependencies": {
     "eslint": "8.23.0",
-    "eslint-config-next": "12.2.5"
+    "eslint-config-next": "12.2.5",
+    "gh-pages": "^4.0.0"
   }
 }
