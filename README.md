@@ -1,34 +1,47 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# MERN Stack Project: Build and Deploy a Twitter Clone From Scratch | JWT, Socket.io
 
-## Getting Started
+![Demo App](https://i.ibb.co/f8y9vGS/Group-82.png)
 
-First, run the development server:
+[Video Tutorial on Youtube](https://youtu.be/4GUVz2psWUg)
 
-```bash
-npm run dev
-# or
-yarn dev
+Some Features:
+
+-   ⚛️ Tech Stack: React.js, MongoDB, Node.js, Express, Tailwind
+-   🔐 Authentication with JSONWEBTOKENS (JWT)
+-   🔥 React Query for Data Fetching, Caching etc.
+-   👥 Suggested Users to Follow
+-   ✍️ Creating Posts
+-   🗑️ Deleting Posts
+-   💬 Commenting on Posts
+-   ❤️ Liking Posts
+-   🔒 Delete Posts (if you are the owner)
+-   📝 Edit Profile Info
+-   🖼️ Edit Cover Image and Profile Image
+-   📷 Image Uploads using Cloudinary
+-   🔔 Send Notifications
+-   🌐 Deployment
+-   ⏳ And much more!
+
+### Setup .env file
+
+```js
+MONGO_URI=...
+PORT=...
+JWT_SECRET=...
+NODE_ENV=...
+CLOUDINARY_CLOUD_NAME=...
+CLOUDINARY_API_KEY=...
+CLOUDINARY_API_SECRET=...
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Build the app
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```shell
+npm run build
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+### Start the app
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```shell
+npm start
+```
